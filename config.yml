@@ -1,0 +1,16 @@
+title: 关于古代传播马克思主义的可能性
+description: 马克思主义，古代，思想，可执行性
+template:
+  repo: '-template'
+  name: ''
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
